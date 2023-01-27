@@ -1,0 +1,122 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+    \begin{document}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{Christopher} \headerlastnamestyle{Dobson} \\
+	\vspace{2mm}
+	{\faEnvelope\ Christopher.Anthony.Dobson@gmail.com} | {\faMobile\ 7575676194} | {\faMapMarker\ McLean, VA}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{}
+	{App Academy}
+	{Online, Part Time Cohort}
+	{April 2022 – April 2023}
+	{}
+	\cventry
+	{MA in Education}
+	{Virginia Tech}
+	{Blacksburg, VA}
+	{August 2016 – May 2018}
+	{}
+	\cventry
+	{BS in Physics}
+	{Virginia Tech}
+	{Blacksburg, VA}
+	{August 2013 – May 2017}
+	{}
+\end{cventries}
+
+\vspace{-2mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Work Experience}
+\begin{cventries}
+	\cventry
+	{Physics Teacher}
+	{Fairfax County Public Schools}
+	{McLean, VA}
+	{August 2018 – Present}
+	{\begin{cvitems}
+		\item {Taught on-level physics, honors physics, and AP Physics 1 to 11th and 12th grade students.}
+		\item {During the 2021-2022 school year, 30\% of my students earned a 5/5 on the AP exam (compared to 8\% globally) and 85.7\% earned a 3 or higher (compared to 43.3\% globally).}
+		\end{cvitems}}
+\end{cventries}
+\cvsection{Skills}
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+		Programming Languages:  & {\skill{ JS and Python -- proficient, Java and C -- novice}} \\
+		Frameworks and Packages:  & {\skill{ Express, React/Redux, Sequelize, Flask}} \\
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+
+\vspace{-7mm}
+\cvsection{Projects}
+\begin{cventries}
+	\cventry
+	{A clone of the popular web app Meetup, meant to build and demonstrate proficiency in various full stack tools}
+	{Greet Sup}
+	{JavaScript, Express, Sequelize, React, Redux}
+	{https://greet-sup.onrender.com/}
+	{}
+	
+	\vspace{-5mm}
+\end{cventries}
+
+\ 
+\end{document}
